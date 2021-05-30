@@ -1,0 +1,15 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "experimentalStudio": true,
+    "baseUrl": "https://purescript-react-realworld.netlify.app" ,
+    "env": {
+    "ApiUrl": "https://conduit.productionready.io/api",
+    "user": {
+        "email":"mulhermaravilha@gmail.com",
+        "password": "mulher1234"
+    }
+
+    },
+    "video": false  
+    
+}

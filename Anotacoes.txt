@@ -1,0 +1,20 @@
+data-test, data-selectors, data-cy, data-test-id
+id => # - procurar a id colocando a # na frente
+classe => . procurar a classe utilizando o ponto na frente
+
+atributos 
+[atributo=valor]  exemplo [href="www.uol.com.br"]
+[contem*=valor]
+[comeca^=valor]
+[termina$=valor]
+
+login cadastrado
+usuario: mulhermaravilha@gmail.com
+senha:   mulher1234
+
+
+ "video": false  // no arquvio cypress.json desabilita a gravação do video.
+
+ rodar os testes sem abrir a interface gráfica
+
+ npx cypress run -- browser firefox -- headless
